@@ -32,6 +32,10 @@ h1{
 .header-right {
 	float: right;
 }
+
+.mapid {
+	height: 180px;
+}
 body {
 
     background-color: #EFF5FB;
