@@ -82,9 +82,11 @@ body {
 }
 
 .kristofer ul{
+	font-size: 20px;
 	color: gray;
 	float: right;
-	margin-right:600px;
+	text-align: center-left;
+	margin-right:800px;
 	
 }
 
@@ -95,6 +97,7 @@ body {
 }
 
 .karl ul{
+	font-size: 20px;
 	color: gray;
 	float: left;
 	text-align: left;
