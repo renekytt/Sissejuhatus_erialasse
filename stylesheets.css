@@ -2,15 +2,21 @@ h1{
 	font-family: Arial;
 	color: Blue;
 }
-
+h2{
+	font-size: 50px;
+}
+h3 {
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 20px;
+}
 .header {
   padding: 60px;
   overflow: hidden;
   text-align: center-left;
   background: url('banner.jpg');
-  color: white;
-  font-size: 40px;
 }
+
 .header a {
   float: left;
   color: white;
@@ -27,6 +33,33 @@ h1{
   text-shadow: 1px 2px black;
   font-weight: bold;
   font-family: Lucida Console;
+}
+
+.header2 {
+  padding: 60px;
+  background: url("meist_pilt.jpg") no-repeat center center; 
+  background-size: cover;
+  height: 400px;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+.header2 a {
+  float: center;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+.header2 a.nimi {
+  font-size: 80px;
+  word-spacing: 5px;
+  text-shadow: 1px 2px black;
+  font-weight: bold;
+  font-family: Colonna MT;
 }
 
 .header-right {
@@ -48,3 +81,33 @@ body {
 	
 
 }
+
+
+.meie{
+	font-size: 50px;
+	text-align: center;	
+}
+
+.kristofer{
+	font-size: 30px;
+	margin-left: 60px;	
+}
+
+.kristofer ul{
+	color: gray;
+	float: right;
+	margin-right:600px;
+	
+}
+
+.karl{
+	font-size: 30px;
+	text-align: right;
+	margin-right: 60px;	
+}
+
+.karl ul{
+	color: gray;
+	float: left;
+	text-align: left;
+	margin-left:350px;
