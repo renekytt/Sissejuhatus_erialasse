@@ -6,7 +6,7 @@ h1{
 .header {
   padding: 60px;
   overflow: hidden;
-  text-align: center-left;
+  text-align: left;
   background: url('banner.jpg');
   color: white;
   font-size: 40px;
@@ -45,11 +45,20 @@ body {
 	color: Gray;
 	font-size: 11px;
 	margin-top: 10px;
-	
-
+	text-align: center;
 }
 
+h2.introduction{
+	text-align: center;
+	
+}
 
+p.introduction{
+	text-align: center;
+	margin-left: 35%;
+	margin-right: 35%;
+	
+}
 .header-right {
 	float: right;
 }
@@ -61,14 +70,7 @@ body {
 
     background-color: #EFF5FB;
 }
-.footer {
-	font-family: Arial;
-	color: Gray;
-	font-size: 11px;
-	margin-top: 10px;
-	
 
-}
 
 
 .meie{
@@ -85,7 +87,7 @@ body {
 	font-size: 20px;
 	color: gray;
 	float: right;
-	text-align: center-left;
+	text-align: left;
 	margin-right:800px;
 	
 }
@@ -105,7 +107,20 @@ body {
 }
 .liikmed h2{
 	text-align: center;
-	float:center;
 	font-size: 50px;
 	
+}
+
+.pealkiri{
+	font-size: 25px;
+	text-align: left;
+}
+
+.pealkiri2{
+	font-size: 25px;
+	text-align: center;
+}
+.center{
+	margin:auto;
+	width: 50%;
 }
